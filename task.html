@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stripes in the Shadows: A Tiger Documentary</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0f0a;--card:#151d14;--orange:#ff8a1f;--gold:#ffc46b;--text:#f1ede4;--muted:#a9b3a3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 50% 0,#1d2a1a,var(--bg) 60%);color:var(--text);font-family:Georgia,'Times New Roman',serif;line-height:1.75}
+.wrap{max-width:960px;margin:0 auto;padding:20px 16px 40px}
+.hero{position:relative;border-radius:22px;overflow:hidden;box-shadow:0 20px 60px #000a;min-height:420px}
+.hero img{width:100%;height:min(80vh,640px);object-fit:cover;object-position:center 30%;display:block}
+.hero .over{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;background:linear-gradient(0deg,#0b0f0aee 5%,#0b0f0a00 65%)}
+h1{font-size:clamp(2rem,7vw,4rem);letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin:6px 0;line-height:1.1;text-shadow:0 3px 18px #000}
+h2{color:var(--orange);margin-top:48px;border-left:6px solid var(--orange);padding-left:12px}
+h3{color:var(--gold);margin:16px 0 6px}
+h4,h5,h6{margin:8px 0;color:var(--muted);font-weight:normal}
+h6{font-size:.8rem}
+.tag{display:inline-block;background:var(--orange);color:#1c0e00;border-radius:20px;padding:2px 14px;font-size:.8rem;font-family:sans-serif;font-weight:bold;letter-spacing:.06em}
+.card{background:var(--card);border:1px solid #2a3a27;border-radius:16px;padding:18px 22px;margin:16px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.stat{text-align:center}
+.stat .n{font-size:2.2rem;color:var(--orange);font-weight:bold;display:block}
+pre{background:#070a06;border-left:5px solid var(--orange);padding:14px;overflow-x:auto;border-radius:10px;color:#ffd9a8;font-size:.95rem}
+a{color:var(--gold)}
+video,audio{width:100%;border-radius:14px;background:#000;display:block}
+.photo{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:center}
+.photo img{width:100%;border-radius:16px;box-shadow:0 10px 30px #0008}
+@media(max-width:640px){.photo{grid-template-columns:1fr}}
+footer{text-align:center;color:var(--muted);font-size:.9rem;margin-top:48px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="hero">
+  <img src="/html/media/tiger.jpg" alt="Portrait of a tiger walking toward the camera">
+  <div class="over">
+    <span class="tag">🐯 A Natural History Film</span>
+    <h1>Stripes in the Shadows</h1>
+    <h4>The secret life of the world’s largest cat</h4>
+  </div>
+</div>
+
+<h2>Chapter One: The Hunter Awakens</h2>
+<div class="card">
+  <h3>Dawn in the forest</h3>
+  <p>
+    Every tiger wears a <b>unique stripe pattern</b>, like a <strong>living fingerprint</strong>.
+    Silent, patient and <i>incredibly powerful</i>, it moves through the forest like <em>a shadow with a heartbeat</em>.
+    A hunt that looks <u>effortless</u> is <strike>never</strike> rarely successful: only about 1 in 10 attempts ends in a catch.
+    A tiger can eat up to 40 kg of meat in a single meal, and its roar carries 3 km (3 × 10<sup>3</sup> m).
+    Its skin is striped too, not just its fur, and every drop of H<sub>2</sub>O at a river bank is a hunting ground.
+  </p>
+  <p contenteditable="true" style="text-align:center; background-color:#2a3a1e; padding:12px; border-radius:10px;">
+    ✏️ Editable narration: click here and write your own line about the tiger!
+  </p>
+  <p style="text-align:right; background-color:#4a2a08; padding:12px; border-radius:10px;">
+    Right-aligned with an amber background, <span style="color:#ffc46b; font-weight:bold;">the colour of a tiger’s coat</span>.
+  </p>
+</div>
+
+<h2>The Tiger in Numbers</h2>
+<div class="grid">
+  <div class="card stat"><span class="n">300 kg</span>Max weight</div>
+  <div class="card stat"><span class="n">65 km/h</span>Sprint speed</div>
+  <div class="card stat"><span class="n">10 cm</span>Longest canine</div>
+  <div class="card stat"><span class="n">~5,500</span>Left in the wild</div>
+</div>
+
+<h2>Chapter Two: Eyes of Amber</h2>
+<div class="card photo">
+  <img src="/html/media/tiger.jpg" alt="Close-up of a tiger’s amber eyes and striped face">
+  <div>
+    <h3>Master of the night</h3>
+    <p>A tiger’s eyes see <strong>six times better</strong> than ours in low light. White spots on the back of its ears act like fake eyes, warning rivals that <em>someone is always watching</em>.</p>
+    <span class="tag">Apex Predator</span>
+  </div>
+</div>
+
+<h2>Field Notes</h2>
+<pre>
+  SPECIES  : Panthera tigris
+  HABITAT  : Forests, mangroves, grasslands
+  ACTIVE   : Dusk to dawn
+  DIET     : Deer, wild boar, buffalo
+  STATUS   : Endangered
+</pre>
+
+<h2>Watch the Tiger</h2>
+<div class="card">
+  <video controls preload="metadata" poster="tiger.jpg">
+    <source src="/html/media/tiger.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<h2>Listen to the Wild</h2>
+<div class="card">
+  <p>Put on headphones and press play:</p>
+  <audio controls preload="metadata">
+    <source src="/html/media/tiger.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+</div>
+
+<h2>Protect the Stripes</h2>
+<p>
+  Tigers need our help. Learn more at
+  <a href="https://www.worldwildlife.org/species/tiger" target="_blank" rel="noopener" title="WWF Tiger page">WWF Tigers</a>
+  or read about
+  <a href="https://en.wikipedia.org/wiki/Tiger" target="_blank" rel="noopener" title="Tiger on Wikipedia">the tiger on Wikipedia</a>.
+</p>
+<h5>Heading level 5: Filmed over 400 days</h5>
+<h6>Heading level 6: No animals were harmed</h6>
+
+<footer>© Stripes in the Shadows · Built with pure HTML</footer>
+</div>
+</body>
+</html>
